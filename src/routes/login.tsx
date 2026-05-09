@@ -11,7 +11,7 @@ function LoginPage() {
   const nav = useNavigate();
   const [mode, setMode] = useState<"signin" | "signup">("signin");
   return (
-    <SiteShell variant="calm">
+    <SiteShell variant="paper">
       <div className="mx-auto max-w-md py-10">
         <GlassCard>
           <p className="text-xs uppercase tracking-[0.3em] text-primary" style={{ fontFamily: "var(--font-mono-disp)" }}>

@@ -49,7 +49,7 @@ function AdvisorPage() {
   const [msg, setMsg] = useState("");
 
   return (
-    <SiteShell variant={domain === "operations" ? "burst" : "night"}>
+    <SiteShell variant="paper">
       <div className="mb-6 flex flex-wrap gap-2">
         {Object.entries(meta).map(([id, v]) => (
           <Link
