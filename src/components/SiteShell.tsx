@@ -55,8 +55,8 @@ export function SiteShell({ children, variant }: { children: React.ReactNode; va
           </Link>
         </div>
       </header>
-      <main className="mx-auto max-w-6xl px-6 py-10">{children}</main>
-      <footer className="mx-auto max-w-6xl border-t border-border/50 px-6 py-10 text-xs text-muted-foreground">
+      <main className="relative z-10 mx-auto max-w-6xl px-6 py-10">{children}</main>
+      <footer className="relative z-10 mx-auto max-w-6xl border-t border-border/50 px-6 py-10 text-xs text-muted-foreground">
         <p>© Negocio — built for small business owners in California.</p>
         <p className="mt-2 tracking-[0.3em]">SAN DIEGO</p>
       </footer>
