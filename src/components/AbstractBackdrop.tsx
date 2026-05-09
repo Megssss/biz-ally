@@ -43,24 +43,24 @@ export function AbstractBackdrop({ variant = "paper" }: { variant?: Variant }) {
           </filter>
 
           {/* soft washes */}
-          <radialGradient id="wA" cx="20%" cy="15%" r="55%">
-            <stop offset="0%" stopColor={C.pink} stopOpacity="0.45" />
+          <radialGradient id="wA" cx="18%" cy="12%" r="60%">
+            <stop offset="0%" stopColor={C.pink} stopOpacity="0.85" />
             <stop offset="100%" stopColor={C.pink} stopOpacity="0" />
           </radialGradient>
-          <radialGradient id="wB" cx="85%" cy="10%" r="55%">
-            <stop offset="0%" stopColor={C.lavender} stopOpacity="0.55" />
+          <radialGradient id="wB" cx="88%" cy="8%" r="60%">
+            <stop offset="0%" stopColor={C.lavender} stopOpacity="0.95" />
             <stop offset="100%" stopColor={C.lavender} stopOpacity="0" />
           </radialGradient>
-          <radialGradient id="wC" cx="75%" cy="90%" r="65%">
-            <stop offset="0%" stopColor={C.tangerine} stopOpacity="0.4" />
+          <radialGradient id="wC" cx="78%" cy="92%" r="65%">
+            <stop offset="0%" stopColor={C.tangerine} stopOpacity="0.8" />
             <stop offset="100%" stopColor={C.tangerine} stopOpacity="0" />
           </radialGradient>
-          <radialGradient id="wD" cx="10%" cy="80%" r="55%">
-            <stop offset="0%" stopColor={C.sage} stopOpacity="0.4" />
+          <radialGradient id="wD" cx="8%" cy="82%" r="60%">
+            <stop offset="0%" stopColor={C.sage} stopOpacity="0.8" />
             <stop offset="100%" stopColor={C.sage} stopOpacity="0" />
           </radialGradient>
           <radialGradient id="wE" cx="50%" cy="50%" r="70%">
-            <stop offset="0%" stopColor={C.periwinkle} stopOpacity="0.35" />
+            <stop offset="0%" stopColor={C.periwinkle} stopOpacity="0.7" />
             <stop offset="100%" stopColor={C.periwinkle} stopOpacity="0" />
           </radialGradient>
         </defs>
