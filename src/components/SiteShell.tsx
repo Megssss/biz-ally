@@ -9,7 +9,9 @@ const nav = [
   { to: "/settings", label: "Settings" },
 ];
 
-export function SiteShell({ children, variant }: { children: React.ReactNode; variant?: "paper" }) {
+type BackdropVariant = "paper" | "calm" | "burst" | "splash" | "geometry" | "scenery" | "panels" | "brush";
+
+export function SiteShell({ children, variant }: { children: React.ReactNode; variant?: BackdropVariant }) {
   const { location } = useRouterState();
   return (
     <div className="relative min-h-screen text-foreground">
