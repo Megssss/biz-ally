@@ -152,7 +152,7 @@ export function AbstractBackdrop({ variant = "paper" }: { variant?: Variant }) {
         )}
 
         {/* paper grain — every variant */}
-        <rect width="1600" height="1000" filter="url(#grain)" opacity="0.45" />
+        <rect width="1600" height="1000" filter="url(#grain)" opacity="0.18" />
       </svg>
 
       {/* Quiet acknowledgment of art-historical references */}
