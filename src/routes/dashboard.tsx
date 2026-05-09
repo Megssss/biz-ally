@@ -22,7 +22,7 @@ const apps = [
 
 function Dashboard() {
   return (
-    <SiteShell variant="night">
+    <SiteShell variant="paper">
       <div className="mb-8">
         <p className="text-xs uppercase tracking-[0.3em] text-primary" style={{ fontFamily: "var(--font-mono-disp)" }}>welcome back</p>
         <h1 className="mt-2 text-4xl md:text-5xl" style={{ fontFamily: "var(--font-display)" }}>

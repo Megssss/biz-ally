@@ -34,7 +34,7 @@ const sample = [
 function GrantsPage() {
   const [query, setQuery] = useState("");
   return (
-    <SiteShell variant="night">
+    <SiteShell variant="paper">
       <h1 className="text-4xl md:text-5xl">Grant <span className="font-script text-primary" style={{ fontFamily: "var(--font-script)" }}>discovery</span></h1>
       <p className="mt-2 text-sm text-muted-foreground">Live search — never a static database. If a page is down or a deadline has passed, we say so.</p>
 

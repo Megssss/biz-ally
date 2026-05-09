@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <SiteShell variant="night">
+    <SiteShell variant="paper">
       <section className="grid gap-10 py-10 md:grid-cols-5 md:py-20">
         <div className="md:col-span-3">
           <p className="mb-4 text-xs uppercase tracking-[0.4em] text-primary" style={{ fontFamily: "var(--font-mono-disp)" }}>
