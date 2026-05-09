@@ -11,7 +11,7 @@ function SettingsPage() {
   const [lang, setLang] = useState<"en" | "es">("en");
   const [connected, setConnected] = useState(false);
   return (
-    <SiteShell variant="paper">
+    <SiteShell variant="burst">
       <h1 className="text-4xl md:text-5xl">Settings</h1>
 
       <div className="mt-8 grid gap-6 md:grid-cols-2">

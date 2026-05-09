@@ -20,7 +20,7 @@ function Onboarding() {
   const [stage, setStage] = useState<string>("");
 
   return (
-    <SiteShell variant="paper">
+    <SiteShell variant="scenery">
       <div className="mx-auto max-w-2xl py-6">
         <p className="text-xs uppercase tracking-[0.3em] text-primary" style={{ fontFamily: "var(--font-mono-disp)" }}>
           step {step + 1} / 3
